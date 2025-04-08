@@ -1,0 +1,177 @@
+[
+  {
+    "question": "Czy wolisz pracę przy komputerze czy z urządzeniami mechanicznymi?",
+    "answers": [
+      {
+        "text": "Praca przy komputerze",
+        "points": { "Technik informatyk": 1, "Technik informatyk CYBER.MIL": 1 }
+      },
+      {
+        "text": "Praca z urządzeniami mechanicznymi",
+        "points": {
+          "Technik mechanik": 1,
+          "Technik mechatronik": 1,
+          "Technik robotyk": 1
+        }
+      }
+    ]
+  },
+  {
+    "question": "Czy interesuje Cię programowanie, montaż urządzeń czy naprawa maszyn?",
+    "answers": [
+      {
+        "text": "Programowanie",
+        "points": { "Technik informatyk": 1, "Technik informatyk CYBER.MIL": 1 }
+      },
+      {
+        "text": "Montaż urządzeń",
+        "points": { "Technik mechatronik": 1, "Technik robotyk": 1 }
+      },
+      {
+        "text": "Naprawa maszyn",
+        "points": { "Technik mechanik": 1 }
+      }
+    ]
+  },
+  {
+    "question": "Czy wolisz analizować dane czy pracować manualnie?",
+    "answers": [
+      {
+        "text": "Analiza danych",
+        "points": { "Technik informatyk": 1 }
+      },
+      {
+        "text": "Praca manualna",
+        "points": { "Technik mechanik": 1, "Technik robotyk": 1 }
+      }
+    ]
+  },
+  {
+    "question": "Czy chciałbyś pracować w wojsku lub służbach specjalnych jako informatyk?",
+    "answers": [
+      { "text": "Tak", "points": { "Technik informatyk CYBER.MIL": 2 } },
+      { "text": "Nie", "points": {} }
+    ]
+  },
+  {
+    "question": "Czy interesuje Cię praca z energią odnawialną i ekologią?",
+    "answers": [
+      {
+        "text": "Tak",
+        "points": { "Technik urządzeń i systemów energetyki odnawialnej": 2 }
+      },
+      { "text": "Nie", "points": {} }
+    ]
+  },
+  {
+    "question": "Jak często majsterkujesz lub naprawiasz urządzenia?",
+    "answers": [
+      {
+        "text": "Bardzo często",
+        "points": {
+          "Technik mechanik": 2,
+          "Mechanik pojazdów samochodowych": 2
+        }
+      },
+      {
+        "text": "Czasami",
+        "points": {
+          "Technik mechanik": 1,
+          "Mechanik pojazdów samochodowych": 1
+        }
+      },
+      { "text": "Nigdy", "points": {} }
+    ]
+  },
+  {
+    "question": "Czy interesuje Cię motoryzacja i naprawa pojazdów mechanicznych?",
+    "answers": [
+      {
+        "text": "Tak",
+        "points": {
+          "OPW – technik informatyk / technik pojazdów samochodowych": 1,
+          "Mechanik pojazdów samochodowych": 2
+        }
+      },
+      { "text": "Nie", "points": {} }
+    ]
+  },
+  {
+    "question": "Co najbardziej interesuje Cię w pracy z robotami?",
+    "answers": [
+      {
+        "text": "Programowanie robotów",
+        "points": { "Technik robotyk": 2, "Technik informatyk CYBER.MIL": 1 }
+      },
+      {
+        "text": "Projektowanie mechaniczne",
+        "points": { "Technik mechatronik": 2, "Technik robotyk": 1 }
+      },
+      {
+        "text": "Obsługa i konserwacja",
+        "points": { "Klasa wielozadaniowa (np. elektromechanik)": 2 }
+      }
+    ]
+  },
+  {
+    "question": "Czy chciałbyś projektować i budować maszyny?",
+    "answers": [
+      {
+        "text": "Tak",
+        "points": { "Technik mechanik": 2, "Technik mechatronik": 1 }
+      },
+      { "text": "Nie", "points": {} }
+    ]
+  },
+  {
+    "question": "Czy chciałbyś zajmować się systemami automatyki przemysłowej?",
+    "answers": [
+      {
+        "text": "Tak",
+        "points": { "Technik robotyk": 2, "Technik mechatronik": 1 }
+      },
+      { "text": "Nie", "points": {} }
+    ]
+  },
+  {
+    "question": "Czy lubisz pracować w zespole nad dużymi projektami technologicznymi?",
+    "answers": [
+      {
+        "text": "Tak",
+        "points": {
+          "Technik informatyk CYBER.MIL": 1,
+          "Technik robotyk": 1,
+          "Technik mechatronik": 1
+        }
+      },
+      { "text": "Nie", "points": {} }
+    ]
+  },
+  {
+    "question": "Czy chciałbyś diagnozować i naprawiać pojazdy samochodowe?",
+    "answers": [
+      {
+        "text": "Tak",
+        "points": {
+          "Mechanik pojazdów samochodowych": 2,
+          "OPW – technik informatyk / technik pojazdów samochodowych": 1
+        }
+      },
+      { "text": "Nie", "points": {} }
+    ]
+  },
+  {
+    "question": "Jak bardzo interesują Cię nowoczesne technologie w pracy zawodowej?",
+    "answers": [
+      {
+        "text": "Bardzo interesują",
+        "points": { "Technik informatyk CYBER.MIL": 2, "Technik informatyk": 1 }
+      },
+      {
+        "text": "Trochę interesują",
+        "points": { "Technik robotyk": 1, "Technik mechatronik": 1 }
+      },
+      { "text": "Wcale mnie nie interesują", "points": {} }
+    ]
+  }
+]
