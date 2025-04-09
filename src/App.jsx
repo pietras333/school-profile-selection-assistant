@@ -72,6 +72,16 @@ function App() {
           </button>
         </div>
       )}
+      <img
+        src="./public/logo.png"
+        alt="Logo"
+        className="w-48 h-48 opacity-25 absolute top-12 right-8 z-0"
+      />
+      <img
+        src="./public/logo.png"
+        alt="Logo"
+        className="w-48 h-48 opacity-25 absolute bottom-12 left-8 z-0"
+      />
       {/* Pasek postępu */}
       {isQuizStarted && (
         <ProgressBar
