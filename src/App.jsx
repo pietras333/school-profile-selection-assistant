@@ -144,7 +144,7 @@ function App() {
       )}
       <footer className="absolute bottom-0 left-0 w-full p-4 text-center">
         <p className="text-gray-500 text-sm mt-4">
-          © 2023 Zespół Szkół Technicznych w Pile
+          © 2025 Zespół Szkół Technicznych w Pile
         </p>
         <p className="text-gray-500 text-sm">Wszelkie prawa zastrzeżone.</p>
         <p className="text-gray-500 text-sm">
