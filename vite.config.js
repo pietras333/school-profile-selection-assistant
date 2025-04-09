@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/school-profile-selection-assistant/",
   plugins: [react(), tailwindcss()],
-  base: "/school-profile-selection-assistant/", // replace with your GitHub repo name
 });
