@@ -59,7 +59,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+    <div className="min-h-dvh flex flex-col items-center justify-center bg-gray-100">
       {isQuizStarted && (
         <div className="absolute top-12 left-8">
           {/* Przycisk do cofnięcia się w pytaniu */}
@@ -68,19 +68,21 @@ function App() {
             className="p-2 flex gap-x-2 items-center bg-gray-200 text-gray-400 hover:text-gray-600 hover:bg-yellow-500 hover:cursor-pointer transition-colors duration-200 rounded-full"
           >
             <FaArrowLeft size={20} />
-            <p className="font-bold tracking-wide uppercase">Poprzednie</p>
+            <p className="font-bold max-xl:text-medium max-xl:text-sm tracking-wide uppercase">
+              Poprzednie
+            </p>
           </button>
         </div>
       )}
       <img
         src="./logo.png"
         alt="Logo"
-        className="w-48 h-48 opacity-25 absolute top-12 right-8 z-0"
+        className="w-48 h-48 max-xl:w-24 max-xl:h-24 max-xl:opacity-15 opacity-25 absolute top-12 right-8 z-0"
       />
       <img
         src="./logo.png"
         alt="Logo"
-        className="w-48 h-48 opacity-25 absolute bottom-12 left-8 z-0"
+        className="w-48 h-48 max-xl:w-24 max-xl:h-24 max-xl:opacity-15 opacity-25 absolute bottom-12 left-8 z-0"
       />
       {/* Pasek postępu */}
       {isQuizStarted && (
@@ -98,8 +100,8 @@ function App() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.4, delay: 0.5 }}
-              className="p-8 mt-16 w-3/4 flex flex-col justify-center items-center"
+              transition={{ duration: 0.4, delay: 0.1 }}
+              className="p-8 mt-16 w-3/4 max-xl:w-full max-xl:mt-0 flex flex-col justify-center items-center"
             >
               <QuestionCard
                 question={questions[currentQuestionIndex].question}
@@ -130,7 +132,7 @@ function App() {
             transition={{ duration: 0.5, ease: "easeOut" }}
             className="flex flex-col items-center"
           >
-            <h1 className="mb-8 text-4xl font-medium text-gray-800 text-center">
+            <h1 className="mb-8 max-xl:mb-4 max-xl:p-4 max-xl:text-3xl text-4xl font-medium text-gray-800 text-center">
               Pomocnik Wyboru Profilu Szkolnego - ZST Piła
             </h1>
             <button
@@ -147,17 +149,19 @@ function App() {
         // Przycisk zakończenia quizu
         <button
           onClick={exitQuiz}
-          className="w-fit p-3 my-2 bg-gray-200 hover:bg-yellow-500 transition-colors duration-200 text-gray-800 font-medium text-xl rounded-2xl hover:cursor-pointer"
+          className="w-fit p-3 MA my-2 bg-gray-200 hover:bg-yellow-500 transition-colors duration-200 text-gray-800 font-medium text-xl rounded-2xl hover:cursor-pointer"
         >
           Zakończ
         </button>
       )}
-      <footer className="absolute bottom-0 left-0 w-full p-4 text-center">
-        <p className="text-gray-500 text-sm mt-4">
+      <footer className="absolute bottom-0 left-0 w-full max-xl:opacity-25 p-4 text-center">
+        <p className="text-gray-500 text-sm max-xl:text-xs mt-4">
           © 2025 Zespół Szkół Technicznych w Pile
         </p>
-        <p className="text-gray-500 text-sm">Wszelkie prawa zastrzeżone.</p>
-        <p className="text-gray-500 text-sm">
+        <p className="text-gray-500 text-sm max-xl:text-xs">
+          Wszelkie prawa zastrzeżone.
+        </p>
+        <p className="text-gray-500 text-sm max-xl:text-xs">
           Stworzone przez: Lewanda Tomasz, <a href="">Wendt Piotr</a>
         </p>
       </footer>

@@ -18,16 +18,16 @@ const resultCardVariants = {
 
 const ResultCard = ({ result }) => (
   <motion.div
-    className="p-8 rounded-lg mt-16 text-center"
+    className="p-8 max-xl:p-4 max-xl:mt-12 rounded-lg mt-16 text-center"
     variants={resultCardVariants}
     initial="hidden"
     animate="visible"
     exit="exit"
   >
-    <h2 className="text-4xl mb-4 font-medium tracking-wide">
+    <h2 className="text-4xl max-xl:text-3xl mb-4 font-medium tracking-wide">
       Twój wynik: {result}
     </h2>
-    <p className="text-lg">
+    <p className="text-lg max-xl:text-base">
       Dziękujemy za udział w teście predyspozycji zawodowych!
     </p>
   </motion.div>
