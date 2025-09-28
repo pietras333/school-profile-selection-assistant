@@ -1,45 +1,45 @@
 # 📚 School Profile Selection Assistant
 
-Aplikacja webowa wspierająca uczniów w wyborze profilu szkoły średniej.  
-Na podstawie udzielonych odpowiedzi i preferencji system rekomenduje profil edukacyjny najlepiej dopasowany do zainteresowań i mocnych stron ucznia.
+A web application that helps students choose the right high school profile.  
+Based on answers and preferences, the system recommends the educational profile that best matches the student’s interests and strengths.
 
 ---
 
-## 🚀 Funkcjonalności
-- 📝 Interaktywny formularz z pytaniami dotyczącymi zainteresowań i preferencji  
-- 🤖 Algorytm dopasowujący odpowiedzi do profili szkolnych  
-- 🎯 Wynik końcowy w postaci rekomendowanego profilu  
-- 💡 Prosty i czytelny interfejs użytkownika  
+## 🚀 Features
+- 📝 Interactive questionnaire with questions about interests and preferences  
+- 🤖 Matching algorithm that assigns answers to school profiles  
+- 🎯 Final result presented as a recommended profile  
+- 💡 Simple and user-friendly interface  
 
 ---
 
-## 🛠️ Technologie
+## 🛠️ Technologies
 - [React](https://react.dev/) – frontend  
 - [Vite](https://vitejs.dev/) – bundler  
 - JavaScript, HTML, CSS  
-- ESLint – lintowanie kodu  
+- ESLint – code linting  
 
 ---
 
-## 📦 Instalacja i uruchomienie
+## 📦 Installation & Setup
 ```bash
-# Klonowanie repozytorium
+# Clone the repository
 git clone https://github.com/pietras333/school-profile-selection-assistant.git
 
 cd school-profile-selection-assistant
 
-# Instalacja zależności
+# Install dependencies
 npm install
 
-# Uruchomienie w trybie deweloperskim
+# Run in development mode
 npm run dev
 
-# Budowanie aplikacji
+# Build the application
 npm run build
 
-# Podgląd zbudowanej aplikacji
+# Preview the production build
 npm run preview
 
 🌐 Demo
 
-🔗 Kliknij tutaj, aby uruchomić aplikację
+🔗 Click here to launch the app
