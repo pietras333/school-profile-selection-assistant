@@ -1,12 +1,45 @@
-# React + Vite
+# 📚 School Profile Selection Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikacja webowa wspierająca uczniów w wyborze profilu szkoły średniej.  
+Na podstawie udzielonych odpowiedzi i preferencji system rekomenduje profil edukacyjny najlepiej dopasowany do zainteresowań i mocnych stron ucznia.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funkcjonalności
+- 📝 Interaktywny formularz z pytaniami dotyczącymi zainteresowań i preferencji  
+- 🤖 Algorytm dopasowujący odpowiedzi do profili szkolnych  
+- 🎯 Wynik końcowy w postaci rekomendowanego profilu  
+- 💡 Prosty i czytelny interfejs użytkownika  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologie
+- [React](https://react.dev/) – frontend  
+- [Vite](https://vitejs.dev/) – bundler  
+- JavaScript, HTML, CSS  
+- ESLint – lintowanie kodu  
+
+---
+
+## 📦 Instalacja i uruchomienie
+```bash
+# Klonowanie repozytorium
+git clone https://github.com/pietras333/school-profile-selection-assistant.git
+
+cd school-profile-selection-assistant
+
+# Instalacja zależności
+npm install
+
+# Uruchomienie w trybie deweloperskim
+npm run dev
+
+# Budowanie aplikacji
+npm run build
+
+# Podgląd zbudowanej aplikacji
+npm run preview
+
+🌐 Demo
+
+🔗 Kliknij tutaj, aby uruchomić aplikację
